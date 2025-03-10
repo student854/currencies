@@ -1,0 +1,23 @@
+body{
+	background: linear-gradient(#152348, #1F1F1F);
+	height: 100vh;
+}
+.a h1{
+	font-family: sans-serif;
+	color: #C3BFBF;
+	text-align: center;
+	padding: 80px;
+	font-size: 64px;
+}
+
+.displey{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+	padding: 120px;
+
+}
+
+.name-columns{
+	color: whitesmoke;
+}

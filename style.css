@@ -1,0 +1,38 @@
+body{
+	background-color: darkblue;
+	text-align: center;
+	color: #2AC82A;
+	font-family: sans-serif;
+	margin: 0px;
+}
+.f{background-color: black;
+	padding: 10px;
+
+}
+.f h1 {
+
+font-size: 70px;
+}
+.name{
+	padding: 40px;
+	padding-left: 20px;
+	font-size: 20px;
+	border: none;
+	border-radius: 20px;
+}
+.d{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	width: 30%;
+	margin: auto;
+	padding-top: 50px;
+}
+.d button {
+	width: 100px;
+	height: 100px;
+	color: hotpink;
+	background-color: white;
+	border-radius: 40px;
+	border: none;
+}
