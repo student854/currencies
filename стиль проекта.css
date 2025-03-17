@@ -15,9 +15,39 @@ body{
 	grid-template-columns: 1fr 1fr 1fr;
 
 	padding: 120px;
+	padding-inline: 120px;
 
 }
 
 .name-columns{
 	color: whitesmoke;
 }
+.vol-btns button{
+	width: 100%;
+	padding-block: 50px;
+	border: 3px solid skyblue;
+	background-color: #101B54;
+	font-size: 30px;
+	color: whitesmoke;
+	border-radius: 10px;
+}
+
+.vol-btns{
+	padding: 5px;
+}
+
+.col-input input{
+	text-align: center;
+	padding-block: 50px;
+	border: 3px solid skyblue;
+	background-color: #101B54;
+	color: whitesmoke;
+	font-size: 30px;
+	border-radius: 10px;
+}
+
+.col-input{
+	padding: 5px;
+}
+
+
