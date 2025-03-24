@@ -23,7 +23,7 @@
 			<button>рубль </button>
 		</div>
 		<div class="col-input">
-			<input></input>
+			<input type="number" id ="currency1"/>
 		</div>
 		<div class="vol-down-txt">
 			<h1>-0,3%</h1>
@@ -32,13 +32,34 @@
 			<button>доллар</button>
 		</div>
 		<div class="col-input">
-			<input></input>
+			<input type="number" id ="currency2"/>
 		</div>
 		<div class="vol-up-txt">
 			<h1>0,3%</h1>
 			
 		</div>
 	</div>
+	<script type="text/javascript">
+		const cur1 = document.getElementById("currency1");
+		const cur2 = document.getElementById("currency2");
+		const course = 83;
+
+		function convertToRub(){
+			const Value = parseFloat(cur2.value);
+			cur1.value = (Value * course).toFixed(6);
+		}
+
+		function convertToDollar(){
+			const Value = parseFloat(cur1.value);
+			cur2.value = (Value / course).toFixed(6);
+		}
+
+		cur1.addEventListener('input',convertToDollar);
+		cur2.addEventListener('input',convertToRub);
+
+
+
+	</script>
 
 </body>
 
